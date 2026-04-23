@@ -1,0 +1,21 @@
+
+table {
+    border-collapse: collapse; /*рамки не подвоювалися */
+    width: 100%;
+}
+
+
+td {
+    border: 1px dashed gray; 
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.visit-card-inner {
+    width: 100%;
+    border: none; 
+}
+
+b { font-size: 16px; }
+i { color: #555; }
