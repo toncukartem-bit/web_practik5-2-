@@ -1,21 +1,29 @@
-
-table {
-    border-collapse: collapse; /*рамки не подвоювалися */
-    width: 100%;
-}
-
-
-td {
-    border: 1px dashed gray; 
-    padding: 10px;
-    vertical-align: middle;
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
     text-align: center;
+    
 }
 
-.visit-card-inner {
-    width: 100%;
-    border: none; 
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-b { font-size: 16px; }
-i { color: #555; }
+
+button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border: 1px solid #a0a0a0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+}
